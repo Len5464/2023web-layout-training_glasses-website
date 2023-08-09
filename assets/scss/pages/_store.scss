@@ -43,7 +43,9 @@
     .card {
       flex-direction: column;
       min-width: 348px;
+      max-width: 526px;
       @media screen and (max-width: $breakpoint-md) {
+        max-width: 100%;
         flex-direction: row;
         gap: 24px;
         &__img {
