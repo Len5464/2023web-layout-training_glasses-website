@@ -1,0 +1,18 @@
+.page-links {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  li {
+    padding: 11px 12px;
+    min-width: 40px;
+    border: 1px solid #000;
+    &:hover {
+      background-color: #000;
+      color: #fff;
+    }
+  }
+  a {
+    @extend %link;
+  }
+}

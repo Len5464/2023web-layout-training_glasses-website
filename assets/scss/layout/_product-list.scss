@@ -1,0 +1,26 @@
+.product-list {
+  margin-top: 32px;
+  display: grid;
+  grid-template-columns: repeat(var(--cols, 4), 1fr);
+  column-gap: 24px;
+  row-gap: 80px;
+  @media screen and (max-width: $breakpoint-xl) {
+    --cols: 3;
+  }
+  @media screen and (max-width: $breakpoint-lg) {
+    --cols: 2;
+  }
+  @media screen and (max-width: $breakpoint-sm) {
+    --cols: 1;
+  }
+  span[data-color="brown"] {
+    @extend %logo;
+    background-color: $brown;
+    border-radius: 4px;
+  }
+  span[data-color="orange"] {
+    @extend %logo;
+    background-color: $burnt-orange;
+    border-radius: 4px;
+  }
+}

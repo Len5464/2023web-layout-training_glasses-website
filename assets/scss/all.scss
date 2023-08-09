@@ -1,5 +1,11 @@
-@import './layout/header.scss';
-@import './layout/footer.scss';
-
-
-@import './pages/index.scss';
+@import "reset";
+@import "typology";
+@import "component";
+@import "./layout/nav.scss";
+@import "./layout/footer.scss";
+@import "./layout/nav-tab";
+@import "./layout/page-links";
+@import "./layout/product-list";
+@import "./pages/index.scss";
+@import "./pages/product";
+@import "./pages/store";

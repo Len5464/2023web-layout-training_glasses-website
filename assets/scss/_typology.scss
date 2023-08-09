@@ -1,0 +1,45 @@
+// google fonts
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Roboto&display=swap");
+
+$primary: #aa0601;
+$dark: #650300;
+$light: #fbf2f2;
+$gray-100: #f2f2f2;
+$brown: #5f3e2d;
+$burnt-orange: #b75929;
+$davy-gray: #555555;
+$platinum: #dcdcdc;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+$breakpoint-xxl: 1400px;
+$h1-size: 4rem;
+$h2-size: 3rem;
+$h3-size: 2rem;
+$h4-size: 1.5rem;
+$h5-size: 1.25rem;
+
+body {
+  font-family: "Noto Sans TC", "Roboto", sans-serif;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+h1 {
+  font-size: $h1-size;
+}
+h2 {
+  font-size: $h2-size;
+}
+h3 {
+  font-size: $h3-size;
+}
+h4 {
+  font-size: $h4-size;
+}
+h5 {
+  font-size: $h5-size;
+}

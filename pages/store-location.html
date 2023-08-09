@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <title>看得清才能看得遠</title>
+  </head>
+  <body>
+    <%- include('./layout/nav'); -%>
+    <main class="store-location">
+      <div class="store-location__container">
+        <h2 class="store-location__title">門市據點</h2>
+        <div class="store-location__select">
+          <label for="location">選擇地區</label>
+          <select name="location" id="location">
+            <option value="option1">台北市</option>
+            <option value="option2">台中市</option>
+            <option value="option2">高雄市</option>
+          </select>
+        </div>
+        <div class="store-location__wrap">
+          <div class="card">
+            <img class="card__img" src="../assets/images/store-1.png" alt="store1" />
+            <div>
+              <header class="card__header">
+                <h4 class="card__title">台北中山旗艦店</h4>
+              </header>
+              <ul class="card__body">
+                <li><span class="material-symbols-outlined"> call </span><span>電話：(02)000-1234</span></li>
+                <li><span class="material-symbols-outlined"> schedule </span><span>營業時間：10:00-21:00</span></li>
+                <li>
+                  <span class="material-symbols-outlined"> location_on </span
+                  ><span>地址：台北市中山區南京東路25巷2-1號</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <img
+            class="store-location__map"
+            srcset="../assets/images/螢幕快照 2020-02-13 16.35.44.png , ../assets/images/螢幕快照 2020-02-13 16.35.44@2x.png 2x"
+            src="../assets/images/螢幕快照 2020-02-13 16.35.44@2x.png"
+            alt="google map"
+          />
+        </div>
+      </div>
+    </main>
+
+    <%- include('./layout/footer'); -%>
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>
